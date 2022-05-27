@@ -1,0 +1,452 @@
+/* Catherine Kettner Final Project 10/28/2020 */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Merriweather:wght@300&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    font-family: 'Leckerli One';
+    font-weight: thin;
+    font-size: 1.2em;
+}
+.container, img {
+    width: 100%;
+}
+.iconresize img { 
+    width: 30px;
+    height: 30px;
+    padding: 1em;
+}
+/* Centered text on image */
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    position: relative;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.photoresize {
+        max-width: 300px;
+        max-height: 300px;
+} 
+
+/* Style shows the mobile class */ 
+.mobile {
+    display: inline;
+}
+
+/* Style hides the desktop class */ 
+.desktop {
+    display: none;
+}
+
+/* Style hides the tablet class */
+.tablet {
+        display: none;
+}
+
+/* Style for table element */
+ table {
+     margin-top: 2.5em;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+table {
+  border-bottom: 2px solid #2D3033;
+  border-left: 2px solid #2D3033;
+  border-right: 2px solid #2D3033;
+  border-collapse: collapse;
+}
+
+table caption {
+    border-top: 2px solid #2D3033;
+    border-left: 2px solid #2D3033;
+    border-right: 2px solid #2D3033;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+    line-height: 3em;
+    font-size: 1.3em;
+    color: #2D3033;
+}
+
+td {
+    padding: .7em;
+}
+
+
+h1 {
+    font-size: 1.2zem;
+    text-align: center;
+    font-family: 'Leckerli One';
+    font-weight: bolder;
+    color: #2D3033;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bolder;
+    color: #2D3033;
+    width: 80%;
+    margin-left: 10%
+    
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 120%;
+    text-align: center;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+html, body  {
+ margin:0;
+ padding:0;
+}
+
+nav {
+    text-align: center;
+    width: auto;
+}
+
+nav ul li {
+    list-style: none; 
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav li {
+    margin-bottom: 5%;
+} 
+    
+nav ul li a {
+    color: #2D3033;
+    list-style: none; 
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0;
+}
+
+
+
+article {
+    width: 88%;
+    text-align: center;
+}
+article ul {
+    text-align: left;
+}
+
+section {
+    width: 100%;
+
+}
+
+.cssbold { 
+    font-weight: bolder; 
+    line-height: 2em;
+    color: #2D3033;
+}
+
+.cursive {
+    font-family: 'Leckerli One';
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+article {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+aside {
+    display: none;
+}
+
+footer {
+    clear: both;
+    
+}
+ 
+footer p {
+    padding: 1%
+}
+
+/* Container holding the form */
+
+.innercontainer {
+  clear: both;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+fieldset {
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+}
+
+fieldset p {
+    font-weight: bold;
+    color: #2D3033;
+}
+
+fieldset ul {
+    text-align: left;
+}
+
+form ul {
+    list-style-type: none;
+}
+
+input[type="text"] {
+    width: 20em;
+}
+
+input[type="tel"] {
+    width: 20em;
+}
+
+input[type="email"] {
+    width: 20em;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 1em;
+  border: none;
+  outline: none;
+  color: #2D3033;
+  font-weight: bold;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  list-style-position: outside;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: left;
+  color: #2D3033;
+  font-size: 1em;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #D3D3D3;
+}
+
+#main { 
+    clear: both; 
+    padding-left: 3%; 
+    padding-right: 3%;
+    overflow: auto;  
+    text-align: center; 
+    line-height: 2em;
+}
+
+
+@media only screen and (min-width: 700px) {
+
+#columnone, #columntwo {
+        width: 44%;
+        margin-left: 3%;
+        margin-right: 3%;
+        float: left;
+        text-align: center;
+}
+   
+.tablet {
+        display: contents;
+}
+    
+.mobile {
+    display: none;
+}
+    
+td {
+    padding: 1em;
+}
+.homepage {
+      line-height: 2em;
+        font-size: 1.2em;
+}
+
+.homepage h1 {
+      font-size: 1.7em;
+}
+    
+h1 {
+    font-size: 2em;
+}
+    
+section {
+    width: 50%;
+    float: left;
+
+}
+
+#outerwrapper {
+         width: 100%;
+         padding-bottom: 5%;
+         margin-left: auto;
+         margin-right: auto;
+}
+    
+.container {
+  font-size: 3.3em;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    display: inline;
+    margin-bottom: 5%;
+}   
+nav ul li a {
+    font-size: 1.3em;
+    color: #2D3033;
+    list-style: none; 
+    text-decoration: none;
+}
+
+nav ul {
+    margin-left: 9%;
+}
+
+ul {
+    text-align: center;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+  width: 45%;
+  float: right;
+  display: inline;
+  margin-right: 3%;
+}
+    
+.innercontainer {
+  max-width: 600px;
+}
+
+fieldset {
+    padding: 1.5em;
+}
+
+input[type="text"] {
+    width: 30em;
+    height: 2em;
+}
+
+input[type="tel"] {
+    width: 30em;
+    height: 2em;
+}
+
+input[type="email"] {
+    width: 30em;
+    height: 2em;
+}
+    
+    
+.dropdown .dropbtn {
+  font-size: 1.3em;
+    
+}
+
+section ul {
+      text-align: left;
+}
+   
+}
+
+@media only screen and (min-width: 900px) {
+
+.innercontainer {
+  max-width: 800px;
+} 
+
+.container {
+  font-size: 4.2em;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+.title {
+    font-size: 3em;
+}
+
+nav li a:hover {
+         color: #000000;
+         font-style: italic;
+}
+
+nav li a:visited {
+         color: #2D3033;
+}
+
+nav li a:hover {
+         color: #000000;
+         font-style: italic;
+}
+
+nav li a:active {
+         color: #A9A9A9;
+}
+
+img {
+    max-width: 130%;
+}
+  
+    
+}
