@@ -89,7 +89,7 @@ td {
 
 
 h1 {
-    font-size: 1.2zem;
+    font-size: 1.2em;
     text-align: center;
     font-family: 'Leckerli One';
     font-weight: bolder;
@@ -343,7 +343,7 @@ section {
 
 nav li {
     float: left;
-    width: 25%;
+    width: 23%;
     display: inline;
     margin-bottom: 5%;
 }   
