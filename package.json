@@ -1,0 +1,19 @@
+{
+  "name": "catchup",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kettkat/kettkat.git"
+  },
+  "author": "Katherine K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kettkat/kettkat/issues"
+  },
+  "homepage": "https://github.com/kettkat/kettkat#readme"
+}
